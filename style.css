@@ -4,21 +4,20 @@ body {
 
 #pokemon {
   border: 3px solid black;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  row-gap: 1em;
   max-width: 1000px;
-  margin: 20px auto;
+  margin: 0 auto;
 }
 
 .tile {
   display: flex;
   flex-direction: column;
-  width: 25%;
+
   align-items: center;
-  margin-bottom: 5em;
 }
 .tile img {
-  width: 50%;
   height: 150px;
 }
 .tile .image {
