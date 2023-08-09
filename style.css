@@ -3,7 +3,7 @@ body {
 }
 
 #pokemon {
-  border: 3px solid black;
+  /* border: 3px solid black; */
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
   row-gap: 1em;
@@ -11,22 +11,32 @@ body {
   margin: 0 auto;
 }
 
+#search {
+  width: 35%;
+  font-size: x-large;
+  padding: 0.4em;
+  margin-bottom: 0.5em;
+}
+
 .tile {
   display: flex;
+  /* border: 3px solid black; */
   flex-direction: column;
-
   align-items: center;
 }
 .tile img {
   height: 150px;
 }
 .tile .image {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  /* display: flex;
+  flex-direction: column; */
+  /* align-items: center; */
 }
 
 .active {
   border: 3px solid black;
   border-radius: 1em;
+}
+.is-hidden {
+  display: none;
 }
